@@ -16,7 +16,7 @@ REQUIREMENTS
 ------------
 
 ARGUMENTS
-### path 
+### path or record
 <p>Sample:<p>
 
 ```php

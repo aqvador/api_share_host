@@ -16,7 +16,7 @@ use  Yii;
 
 class BaseRestController extends Controller
 {
-    public $serializer = 'app\api\base\Serializer';
+    public $serializer = 'app\base\Serializer';
 
     public function runAction($id, $params = [])
     {

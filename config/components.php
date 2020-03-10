@@ -27,8 +27,10 @@ return [
     'urlManager' => [
         'enablePrettyUrl' => true,
         'enableStrictParsing' => true,
+
         'showScriptName' => false,
         'rules' => [
+            'record' => 'api/v1/statistics/record',
             [
                 'class' => 'yii\rest\UrlRule',
                 'controller' => ['v1/statistics'],

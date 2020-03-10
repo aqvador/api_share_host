@@ -28,3 +28,4 @@ AUTHORIZATION
 Authorization is performed using the transfer method in the Bearer Token header
 ```
 
+eval `ssh-agent -s`  && ssh-add /root/.ssh/bitbucket_key &&  cd /var/www/api  && git clone && ssh-agent -k && chmod +x ./*.php -R && chmod +x ./*.sh

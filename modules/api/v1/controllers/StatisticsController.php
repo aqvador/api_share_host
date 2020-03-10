@@ -23,7 +23,7 @@ class StatisticsController extends BaseRestController
      * @throws BadRequestHttpException
      * @throws NotFoundHttpException
      */
-    public function actionRecord()
+    public function actionCallRecording()
     {
         $params = Yii::$app->request->getBodyParam('path');
         $path = (!empty($params)) ? $params : Yii::$app->request->getBodyParam('record');

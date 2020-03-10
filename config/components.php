@@ -37,9 +37,7 @@ return [
                 'pluralize' => false,
                 'prefix' => 'api',
                 'extraPatterns' => [
-                    'GET,POST record' => 'record',
-                    'GET,POST getFile' => 'record',
-                    'GET,POST get-file' => 'record',
+                    'GET,POST call-recording' => 'call-recording',
                 ],
             ],
             '<url:(.*)>' => 'v1/errors',

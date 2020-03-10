@@ -16,7 +16,7 @@ REQUIREMENTS
 ------------
 
 ARGUMENTS
-path 
+### path 
 <p>Sample:<p>
 
 ```php
@@ -27,3 +27,4 @@ AUTHORIZATION
 ```
 Authorization is performed using the transfer method in the Bearer Token header
 ```
+
